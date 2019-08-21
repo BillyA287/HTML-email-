@@ -1,0 +1,158 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+/*--------preset for HTML email----------*/
+
+body {
+    background-color: #d8dbdb;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2%;
+    color: #565859;
+}
+
+
+/*--------border for email  ----------*/
+
+.border {
+    clear: both;
+    height: 2px;
+    background-color: #e3e9e9;
+    margin: 4% auto;
+    width: 96%;
+}
+
+
+/*--------background colour ----------*/
+
+#wrapper {
+    background: #f6faff;
+    contain: content;
+}
+
+
+/*--------header ----------*/
+
+header {
+    width: 100%;
+}
+
+#logo {
+    max-width: 220px;
+    margin: 2% 0 0 5%;
+    float: left;
+}
+
+#callout {
+    float: right;
+    margin: 3% 3% 2% 0;
+}
+
+.social {
+   
+    list-style: none;
+    cursor: pointer;
+}
+
+.social li {
+    display: inline;
+    padding: 10px;
+}
+
+.social li .fabfa-instagramfa-2x {
+    color: #303840;
+}
+
+
+/*--------banner image ----------*/
+
+.banner img {
+    max-width: 100%;
+    
+}
+
+.banner {
+    margin: 3%;
+}
+
+
+/*--------banner section ----------*/
+
+.first {
+    padding: 2%;
+}
+
+
+/*-------- text setting <p>tags ----------*/
+
+.para-margin {
+	margin-top: 20px; 
+    
+}
+
+
+/*--------button ----------*/
+
+.button {
+    display: flex;
+    margin: 0 2% 4% 0;
+}
+
+.btn {
+    display: flex;
+    background: #303840;
+    color: #f6faff;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 8px 12px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background: #58585a;
+}
+
+.second img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    contain: content;
+}
+
+a {
+    color: #607cc3;
+    text-decoration: none;
+}
+
+
+/*--------mid section containing second image  ----------*/
+
+.second {
+    margin: 3%;
+}
+
+h2 {
+	letter-spacing: 1%;
+	margin-bottom: 10px;
+}
+
+h3{
+	margin-bottom: 20px;
+}
+
+
+/*--------bottom section containg contact section  ----------*/
+
+.contact {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
